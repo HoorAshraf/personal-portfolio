@@ -2,17 +2,14 @@
   "name": "app",
   "private": true,
   "version": "0.0.0",
-"homepage": "https://hoorashraf.github.io/personal-portfolio",
-
-
+  "homepage": "https://hoorashraf.github.io/personal-portfolio",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "scripts": {
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build",
-  "start": "react-scripts start",
-  "build": "react-scripts build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
